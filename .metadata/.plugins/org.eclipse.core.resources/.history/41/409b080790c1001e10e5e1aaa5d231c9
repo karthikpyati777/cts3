@@ -1,0 +1,5 @@
+package in.karthik.security;
+
+public class PwdUtils {
+
+}

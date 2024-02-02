@@ -1,0 +1,10 @@
+com\stackroute\swaggerautoconfbean\config\CustomDataSourceConfig.class
+com\stackroute\swaggerautoconfbean\entity\Product.class
+com\stackroute\swaggerautoconfbean\service\ProductService.class
+com\stackroute\swaggerautoconfbean\SwaggerAutoConfBeanApplication.class
+com\stackroute\swaggerautoconfbean\repository\ProductRepo.class
+com\stackroute\swaggerautoconfbean\service\ProductServiceImpl.class
+com\stackroute\swaggerautoconfbean\controller\ProductController.class
+com\stackroute\swaggerautoconfbean\service\CustomServiceImpl.class
+com\stackroute\swaggerautoconfbean\config\CustomDataSource.class
+com\stackroute\swaggerautoconfbean\service\CustomService.class

@@ -1,0 +1,10 @@
+package interview_programs.arrays;
+
+public class CharAtExamples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

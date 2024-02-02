@@ -1,0 +1,21 @@
+package interview_programs.arrays;
+
+public class CharAtExamples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s="COGNIZANT IS A WELL ORGANIZED STRUCTURE";
+		
+		           String lowerCase = s.toLowerCase();
+		           System.out.println(lowerCase);
+		           System.out.println();
+		           char charAt = s.charAt(4);
+		           System.out.println(charAt);
+		                String replace = s.replace('I', 'E');
+		                System.out.println(replace);
+		               String replaceAllEx= s.replaceAll("IS", "is");
+		                System.out.println(replaceAllEx);
+	}
+
+}

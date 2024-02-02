@@ -1,0 +1,6 @@
+com\swaggerautoconfbean\test\repository\ProductRepoTest.class
+com\swaggerautoconfbean\test\config\CustomDataSourceTest.class
+com\swaggerautoconfbean\SwaggerAutoConfBeanApplicationTests.class
+com\swaggerautoconfbean\test\controller\ProductControllerTest.class
+com\swaggerautoconfbean\test\service\ProductServiceImplTest.class
+com\swaggerautoconfbean\test\service\CustomServiceTest.class

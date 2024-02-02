@@ -1,0 +1,27 @@
+package interview_programs.arrays;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FindDuplicateElements {
+	
+	public static void main(String[] args) {
+		
+		
+		List<Integer> list=new ArrayList();
+		
+
+		list.add(23);
+		list.add(42);
+		list.add(37);
+		
+		System.out.println("The Element is : "+list);
+		
+		Integer[] array=new Integer[list.size()];
+		
+		array=list.toArray(array);
+		
+		System.out.print(array);
+	}
+
+}

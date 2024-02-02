@@ -1,0 +1,120 @@
+package com.stackroute.test.service;
+
+import com.stackroute.domain.Blog;
+
+import com.stackroute.exception.BlogNotFoundException;
+import com.stackroute.repository.BlogRepository;
+import com.stackroute.service.BlogServiceImpl;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+
+import java.util.List;
+import java.util.Optional;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.*;
+
+@ExtendWith(MockitoExtension.class)
+class BlogServiceTest {
+    // Mock BlogRepository
+
+    // Inject Mocks to BlogServiceImpl
+
+    private Blog blog, blog1;
+    private List<Blog> blogList;
+    private Optional optional;
+
+    @BeforeEach
+    public void setUp() {
+        MockitoAnnotations.initMocks(this);
+        blog = new Blog(1, "SampleBlog", "Imneet", "SampleBlogforTesting");
+        blog1 = new Blog(2, "Blog 1", "John", "Sample Blog 1 for Testing");
+        optional = Optional.of(blog);
+    }
+
+    @AfterEach
+    public void tearDown() {
+        blog = null;
+    }
+
+    /*
+    * write test case for saveBlog() method, by mocking the repository
+    * */
+    @Test
+    public void givenBlogToSaveThenShouldReturnSavedBlog() {
+    }
+
+    /*
+    * write test case for asserting RuntimeException when saveBlog() method is called, by mocking the repository
+     */
+    @Test
+    public void givenBlogToSaveThenShouldNotReturnSavedBlog() {
+    }
+
+    /*
+    * write test case for getAllBlogs() method, by mocking the repository
+     */
+    @Test
+    public void givenGetAllBlogsThenShouldReturnListOfAllBlogs() {
+    }
+
+    /*
+    * write test case for getBlogById() method, by mocking the repository
+     */
+    @Test
+    public void givenBlogIdThenShouldReturnRespectiveBlog() {
+
+    }
+
+    /*
+    * write test case for deleteBlog() method, by mocking the repository
+     */
+    @Test
+    void givenBlogIdToDeleteThenShouldReturnDeletedBlog() {
+    }
+
+    /*
+    * write test case for asserting BlogNotFoundException when deleteBlog() method is called, by mocking the repository
+     */
+    @Test
+    void givenBlogIdToDeleteThenShouldNotReturnDeletedBlog() {
+    }
+
+    /*
+    * write test case for updateBlog() method, by mocking the repository
+     */
+    @Test
+    public void givenBlogToUpdateThenShouldReturnUpdatedBlog() {
+    }
+
+    /*
+    * write test case for asserting BlogNotFoundException when updateBlog() method is called, by mocking the repository
+     */
+    @Test
+    public void givenBlogToUpdateThenShouldNotReturnUpdatedBlog() {
+    }
+
+
+    /*
+    * write test case for asserting BlogNotFoundException when getBlogById() method is called, by mocking the repository
+     */
+    @Test
+    public void givenNonExistentBlogIdThenShouldThrowBlogNotFoundException() {
+    }
+
+    /*
+    * write test case for asserting BlogNotFoundException when updateBlog() method is called, by mocking the repository
+     */
+    @Test
+    public void givenUpdateNonExistentBlogThenShouldThrowBlogNotFoundException() {
+    }
+}

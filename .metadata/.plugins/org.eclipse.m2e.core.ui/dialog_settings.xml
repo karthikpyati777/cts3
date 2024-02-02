@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\2107257\programs\interview_programs\src\interview_programs\arrays\FindDuplicateElements.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="in.karthik"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="01-jackson-App"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\2107257\Downloads\spring-demo-examples"/>
+			<item value="C:\Users\2107257\Downloads\Gateway-Api"/>
+			<item value="C:\Users\2107257\programs\fevourite-city"/>
+			<item value="C:\Users\2107257\programs\search-city"/>
+			<item value="C:\Users\2107257\programs\swagget-configure\swagger-auto-configured-bean_boilerplate"/>
+			<item value="C:\Users\2107257\programs\swagger-auto-configured-bean_boilerplate"/>
+			<item value="C:\Users\2107257\programs\swagger\swagger-auto-configured-bean_boilerplate"/>
+			<item value="C:\Users\2107257\Downloads\MyJournalApp (3)\MyJournalApp\src\main\java\com\MyJournalApp"/>
+			<item value="C:\Users\2107257\Downloads\registration"/>
+			<item value="C:\Users\2107257\programs\api_gateway_routing_exercise_boilerplate"/>
+			<item value="C:\Users\2107257\programs\maincourse_eureka_server_boilerplate"/>
+			<item value="C:\Users\2107257\programs\async-processing"/>
+			<item value="C:\Users\2107257\programs\jwt-role-based-boilerplate"/>
+			<item value="C:\Users\2107257\programs\User-Registration"/>
+			<item value="C:\Users\2107257\programs\stack_testing_exception_boilerplate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
